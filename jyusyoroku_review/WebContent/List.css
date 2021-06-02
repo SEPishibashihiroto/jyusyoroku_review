@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.btn {
+	background-color: #777777;
+	border: 1px solid #000;
+	padding: 3px 5px;
+}
+
+.paging ul {
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.paging ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.list_table th, td {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.list_table th {
+	background-color: #75A9FF;
+}
+
+.tid{
+	text-align: left;
+}
+
+.tbtn {
+	display: block;
+	text-align: center;
+}
