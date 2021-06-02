@@ -1,5 +1,58 @@
 @charset "UTF-8";
 
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+hesd,body{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.navmenu {
+	height: 100px;
+	margin: 10px 0;
+}
+
+.serch {
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 3px 5px;
+	width: 200px;
+	margin-left: 45px;
+}
+
+.serchtext {
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 198px;
+	height: 25px;
+}
+
+.addbtn {
+	width: 200px;
+	height:25px;
+	position: relative;
+	top:30px;
+}
+
+.navleft {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navright {
+	float: right;
+}
+
+.navright p {
+	position: relative;
+	right:45px;
+	top:20px;
+}
+
 .btn {
 	background-color: #777777;
 	border: 1px solid #000;
@@ -22,6 +75,8 @@ table {
 }
 
 .list_table th, td {
+	width: 950px;
+	height: 50px;
 	border: 1px solid #000;
 	text-align: center;
 }
@@ -29,9 +84,34 @@ table {
 .list_table th {
 	background-color: #75A9FF;
 }
-
 .tid{
+	width: 2%;
+	padding: 3px 5px;
 	text-align: left;
+}
+
+.tname {
+	width: 20%;
+	text-align: center;
+	padding: 3px 5px;
+}
+
+.tadres {
+	width: 33%;
+	text-align: center;
+	padding: 3px 5px;
+}
+
+.ttel {
+	width: 20%;
+	text-align: center;
+	padding: 3px 5px;
+}
+
+.tcategory {
+	width: 15%;
+	text-align: center;
+	padding: 3px 5px;
 }
 
 .tbtn {

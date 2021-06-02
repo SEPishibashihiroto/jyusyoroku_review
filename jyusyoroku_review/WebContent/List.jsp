@@ -22,6 +22,26 @@
 <body>
 	<h2>住所録管理システム：住所録一覧</h2>
 
+	<div class="navmenu">
+
+		<div class="navleft">
+			<!-- 登録画面へ遷移するためのボタン -->
+			<form action="Add.jsp">
+				<input type="submit" value="新規登録" class="btn addbtn">
+			</form>
+		</div>
+
+		<div class="navright">
+			<!-- 住所を検索し、絞り込むためのテキストボックス、ボタン -->
+			<form action="./ListBL">
+				<span>検索：</span>
+				<input type="text" name="SerchName" class="serchtext"><br>
+				<input type="submit" value="検索" class="serch">
+			</form>
+		</div>
+
+	</div>
+
 	<div class="paging">
 		<ul>
 			<li>
@@ -219,6 +239,12 @@
  %>
 			</li>
 		</ul>
+	</div>
+	<div class="headleft">
+		<!-- 登録画面へ遷移するためのボタン -->
+		<form action="Add.jsp">
+			<input type="submit" value="新規登録" class="btn addbtn">
+		</form>
 	</div>
 </body>
 </html>
